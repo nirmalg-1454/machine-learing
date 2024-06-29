@@ -1,0 +1,5 @@
+Age,Income,Prediction
+25,50000,"No"
+45,100000,"Yes"
+35,75000,"No"
+50,120000,"Yes"
