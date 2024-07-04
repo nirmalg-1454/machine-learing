@@ -16,7 +16,7 @@ predict = model.predict(x_new)
 print("Decision Tree : "+predict)
 
 # Random Forest
-model = RandomForestClassifier(n_estimators=100, random_state=42)
+model = RandomForestClassifier(n_estimators=100, random_state=22)
 model.fit(x.values, y.values)
 predict1 = model.predict(x_new)
 print("Random Forest : " +predict1)
