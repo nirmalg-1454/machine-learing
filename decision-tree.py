@@ -15,6 +15,7 @@ x_new = [[30, 70000]]
 predict = model.predict(x_new)
 print("Decision Tree : "+predict)
 
+#VA0267575579
 # Random Forest
 model = RandomForestClassifier(n_estimators=100, random_state=22)
 model.fit(x.values, y.values)
